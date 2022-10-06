@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+  background-color: #141414;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+
+  
+
+}
+body .page{
+  margin: 20px 80px;
+  
+}
+/* Barre de navigation */
+nav{
+  background: url("/image/security-icon.png");  
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  background-position:left ;
+  background-position:bottom left 200px;
+  
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  position:sticky;
+  top: 0;
+  background-color: #141414;
+  padding: 10px 0px;
+
+
+
+
+
+}
+nav .onglets{
+  
+
+
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 20px;
+  font-size: 30px;
+  
+  
+
+}
+nav .onglets{
+  
+
+  display:flex;
+  text-shadow: 0 0 10px hsl(0, 0%, 100%);
+  
+
+
+  flex-wrap:wrap;
+}
+nav .onglets a {
+  margin-right: 20px;
+  cursor:pointer;
+}
+nav .buttons button{
+  padding: 13px 20px;
+  color: #fff;
+  border:none;
+  font-size: 20px;
+  cursor:pointer;
+  outline:none;
+ 
+}
+nav .buttons .login{
+  background-color: inherit;
+  margin-right: 1px;
+  color: #8f8f8f;
+}
+nav .buttons .register{
+  text-decoration: none;
+  font-size: 17px;
+  padding: 13px 30px;
+  background-color: hsl(214, 78%, 44%); 
+  color: #ffffff;
+  border: 1px solid rgb(3, 3, 3);
+  border-style:inset;
+  
+
+  }
+  
+  
+
+/* Fin de la barre de navigation
+
+/* Header */
+header{
+  margin-top: 150px;
+  background: url("/image/securiter\ png.png");
+  background-repeat: no-repeat;
+  background-size: 350px 350px;
+  background-position: bottom left 800px;
+
+
+  
+  
+  
+}
+header h1{
+  text-align:center;
+  font-size: 70px;
+  padding: 150px;
+  transition: transform 2.5s;
+}
+/* Fin du header */
+
+header2 .buttons button{
+    padding: 13px 20px;
+    color: #fff;
+    border:none;
+    font-size: 20px;
+    cursor:pointer;
+    outline:none;
+    position: absolute;
+
+     
+    
+  }
+  header2 .buttons .Discord{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 13px 20px;
+    background-color: hsl(214, 78%, 44%); 
+    color: #fff;
+    border: 3px solid rgb(3, 3, 3);
+    border-style:inset;
+    position: absolute; bottom: 165px
+   
+
+    
+
+    
+  }
+  header2 .buttons .Fonc{
+    
+    
+    top: 732px;
+    left: 300px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 13px 20px;
+    background-color: hsl(213, 7%, 32%); 
+    color: hsl(0, 0%, 100%);
+    border: 3px solid rgb(3, 3, 3);
+    border-style:inset;
+    position: absolute; bottom: 165px
+    
+
+
+
+
+  }
+
+/* Pied de page */
+footer{
+  background-color: #1a1a1a;
+  padding: 25px 100px;
+  color:#828282;
+
+}
+footer .colonnes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+img{
+
+  width: 100px;
+  height: 100px ;
+  position: relative;
+  bottom: -120px;
+  left: 1500px;
+  z-index : 20;
+  
+}
+
+img{
+
+  width: 100px;
+  height: 100px ;
+  position: relative;
+  bottom: -120px;
+  left: 1500px;
+  z-index : 20;
+  
+}
+/* Fin du pied de page */
+
+@media screen and (max-width: 640px){
+  body .page{
+    margin: 10px;
+  }
+  nav .onglets{
+    display:none;
+  }
+  header{
+    margin-top: 20px;
+    background-size: 250px 250px;
+  }
+  header h1{
+    font-size: 30px;
+    padding: 100px;
+  }
+}
